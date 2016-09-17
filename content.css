@@ -1,0 +1,100 @@
+html, body {
+  height: 100%;
+  background-color: #E2E2E2;
+}
+.headerBar{
+  height: 15%;
+  width: 100%;
+
+  background-color: #F0F0F0;
+}
+.mainHeader{
+  font-size: 2em;
+  font-weight: bold;
+  padding-left: 1.5em;
+  padding-top:0.2em;
+  font-family: "Arial Black", Gadget, sans-serif;
+
+}
+.subHeader{
+  font-size: 1em;
+  font-weight: bold;
+  padding-left: 3.5em;
+  color: #979797;
+}
+.container {
+  display: table;
+  border-collapse: separate;
+  /*border-spacing: 1rem;*/
+  height: 80%;
+  width: 100%;
+}
+
+.cell {
+  display: table-cell;
+  /*text-align: center;
+vertical-align: middle;*/
+  width: 45%;
+  padding: 1rem;
+}
+label ,button{
+  display: block;
+  padding:1rem;
+  margin-left:0.9em;
+  font-weight: bold;
+}
+.left-half {
+
+  background-color: #FFFFFF;
+  height: 100%;
+  border-right: 1em solid #F0F0F0;
+}
+
+.right-half {
+  height:100%;
+  background-color: #FFFFFF;
+}
+.contentHeader{
+
+  font-size:1.4em;
+  font-weight: bold;
+}
+
+
+.addTask {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  width:80%;
+  height:12%;
+  padding:1rem;
+  margin-left:2.5em;
+  background-color: #ECECEC;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+table {
+  margin-top: 2em;
+  border-collapse: collapse;
+  width: 100%;
+  border: 5px solid #DEDEDE;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+.submitBtn{
+
+  margin:2.5em;
+  background-color: #434343;
+  color: #FFFFFF;
+
+
+}
