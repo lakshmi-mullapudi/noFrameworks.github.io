@@ -1,7 +1,35 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Welcome</h1>
+<head>
+	<link rel="stylesheet" type="text/css" href="content.css">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
+
+</head>
+<body>
+
+<header class="headerBar">
+  <div class="mainHeader">Task Tracker</div>
+  <div class="subHeader">V2.0</div>
+</header>
+<section class="container">
+
+  <div class="cell left-half">
+    <label class="contentHeader">Create a Task</label>
+    <label for="taskName" >Task Name</label>
+    <input class="addTask" id="taskName" placeholder="Task name" type="text"/>
+    <label for="dateInput" >Date</label>
+    <input class="addTask" id="dateInput" placeholder="MM/DD/YYYY" type="text"/>
+    <label for="assignedName">Assigned To</label>
+    <input class="addTask" id="assignedName" placeholder="Assigned Name" type="text">
+    <button class="submitBtn" >Submit</button>
+  </div>
+  <div class="cell right-half">
+    <div align="left" class="contentHeader">Existing Tasks</div>
+    <table id="myTable"></table>
+  </div>
+
+</section>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
